@@ -1,0 +1,3 @@
+INDEX VERSION 1.134+/Users/tobi/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
+1670264804.index
+2351763541.index
