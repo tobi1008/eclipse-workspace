@@ -29,7 +29,7 @@ public class HelloServlet extends HttpServlet {
 				name = c.getValue();}}
 			if(name.equals("")){
 				//chuyển sang trang LoginServlet
-				resp.sendRedirect("/HelloServlet/login");
+				resp.sendRedirect("/vidu2/login");
 			}
 			//hiển thị lên trang bằng đối tượng PrintWriter()
 			printWriter.println("Xin chao " + name);
