@@ -18,13 +18,6 @@ public class HomeController extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		
 		
-		//bắt 1 tham số
-		String name = req.getParameter("ten");
-		String lstname = req.getParameter("holot");
-		resp.setContentType("text/html");
-		PrintWriter out = resp.getWriter();
-		out.println("Hello " + lstname + " " + name);
-		out.close();
 		
 		
 	}
