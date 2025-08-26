@@ -1,3 +1,4 @@
+eclipse.m2.downloadJavadoc=true
 eclipse.m2.userSettingsFile=/opt/homebrew/Cellar/maven/3.9.11/libexec/conf/settings.xml
 eclipse.m2.userToolchainsFile=/opt/homebrew/Cellar/maven/3.9.11/libexec/conf/toolchains.xml
 eclipse.preferences.version=1
