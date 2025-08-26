@@ -16,9 +16,13 @@ public class HomeController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		//bắt 1 tham số
 		
-		
-		
+		resp.setContentType("text/html");
+		PrintWriter out = resp.getWriter();
+		out.println("HelloServlet");
+		out.close();		
+			
 		
 	}
 	@Override
